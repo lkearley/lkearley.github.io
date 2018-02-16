@@ -9,7 +9,7 @@
             <ul>
             <div class="navbar_right">
             <li><a href="mailto:lkearley3@gatech.edu" class="nav-link">Contact</a></li>
-            <li><a href="http://github.com/lkearley" class="nav-link">Resume</a></li>
+            <li><a href="resume.html">Resume</a></li>
             <li><a href="https://www.linkedin.com/in/lauren-kearley-35a362118/"
                 class="nav-link">LinkedIn</a></li>
             <li><a href="http://github.com/lkearley" class="nav-link">GitHub</a></li>
@@ -24,9 +24,19 @@
             <!-- <img src="/Users/laurenkearley/Desktop/prof.jpg"/> -->
             <p>I'm a 3rd year Computer Science undergraduate student at the Georgia Insitutue of Technology</p>
         </div>
-    
-        <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
-
+        <script src="https://www.gstatic.com/firebasejs/4.10.0/firebase.js"></script>
+        <script>
+        // Initialize Firebase
+        var config = {
+        apiKey: "AIzaSyDlh4hkWqDf86_uP5BYZargDegDtvAv6uY",
+        authDomain: "ioslabapp.firebaseapp.com",
+        databaseURL: "https://ioslabapp.firebaseio.com",
+        projectId: "ioslabapp",
+        storageBucket: "ioslabapp.appspot.com",
+        messagingSenderId: "866408091649"
+    };
+        firebase.initializeApp(config);
+        </script>
         <script src="script.js"></script>
         <footer class="w3-container "></footer>
     </body>
