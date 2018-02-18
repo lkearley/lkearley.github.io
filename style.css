@@ -19,6 +19,7 @@ h1, h2, h3 {
 
 p {
     font-weight: 300;
+    /* margin-right: 75px; */
 }
 
 #navbar {
@@ -41,15 +42,22 @@ p {
 #project-list ul {
     margin: 0;
     list-style-type: none;
+
 }
 #project-list li:first-child {
     margin-top:0;
 }
 #project-list ul li {
     padding: 10px;
+    margin-left: 65px;
+    margin-right: 65px;
     overflow: auto;
     color: #333;
-    margin: 50px 0;
+    margin: 50px 25px;
+}
+
+#project-list ul li p{
+    margin-right: 65px;
 }
 
 #p-intro {
@@ -88,7 +96,6 @@ img {
 
 #project-list li img {
     float: left;
-    margin: 0 150px 0 0;
 }
 
 #intro {
