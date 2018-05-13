@@ -1,25 +1,143 @@
 <! DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div id="navbar">
-        <ul>
-        <div class="navbar_right">
-        <li><a href="mailto:lkearley3@gatech.edu" class="nav-link">Contact</a></li>
-        <li><a class="active" href="#resume">Resume</a></li>
-        <li><a href="https://www.linkedin.com/in/lauren-kearley-35a362118/"
-            class="nav-link">LinkedIn</a></li>
-        <li><a href="http://github.com/lkearley" class="nav-link">GitHub</a></li>
-        </div>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        </ul>
-    </div>
+    <nav class="navbar nav justify-content-center flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-item nav-link" href="index.html">Home</a>
+        <a class="flex-sm-fill text-sm-center nav-item nav-link" href="projects.html">Projects</a>
+        <a class="flex-sm-fill text-sm-center nav-item nav-link active" href="#">Resume</a>
+        <a class="flex-sm-fill text-sm-center nav-item nav-link" href="http://github.com/lkearley" target="_blank">Github</a>
+        <a class="flex-sm-fill text-sm-center nav-item nav-link" href="https://www.linkedin.com/in/lauren-kearley-35a362118/" target="_blank">LinkedIn</a>
+        <a class="flex-sm-fill text-sm-center nav-item nav-link" href="mailto:lauren.t.kearley@gmail.com">Contact</a>
+    </nav>
     <br/>
-    <div align = "center">
-    <embed src="resume.pdf" width="700px" height="892px" />
-</div>
+    <div class="container">
+        <div class="row">
+        <h1 class="display-4">Lauren Kearley</h1>
+        </div>
+        <div class="row">
+        <h5 class="text-muted">(310) 612-6028 · <a href="mailto:lauren.t.kearley@gmail.com" class="text-muted">lauren.t.kearley@gmail.com</a></h5>
+        </div>
+        <dl class="row spacer">
+            <dt class="col-sm-4"><h3>Education</h3></dt>
+            <dd class="col-sm-8">
+                <h5>Georgia Insitutue of Technology
+                <small class="text-muted">Atlanta, GA</small></h5>
+                <h6><small class="text-muted">Anticipated Graduation: May 2019</small></h6>
+                <p class="text-muted">Bachelor of Science in Computer Science</p>
+                <p class="text-muted">Concentrations in computer hardware, embedded systems, information management, and mobile computing</p>
+            </dd>
+            <dt class="col-sm-4 baby-spacer"><h3>Experience</h3></dt>
+            <dd class="col-sm-8 baby-spacer">
+                <h5>Software Engineer Intern (Mobile)
+                <small class="text-muted">Asurion </small></h5>
+                <h6><small class="text-muted">May 2018 - August 2018</small></h6>
+                <p class="text-muted">Incoming</p>
+                <h5>Undergraduate Team Manager
+                <small class="text-muted">Brain Trauma Assessment Protocols, Georgia Insitutue of Technology </small></h5>
+                <h6><small class="text-muted">August 2017 - Present</small></h6>
+                <p class="text-muted">Managing a research team whose goal is to develop a suite of iOS, Android, and web applications for patients suffering from aphasia and their clinicians</p>
+                <ul>
+                    <li class="text-muted">Created an iOS application which is currently used to monitor the heart rate of ophthalmic surgery residents as they progress through their training at Emory University Hospital</li>
+                    <li class="text-muted">Developed three modules in Swift from the Western Aphasia Battery to assess patients’ language abilities</li>
+                    <li class="text-muted">Utilized Dropbox SDK to automatically upload patients’ test results to their clinician’s Dropbox account</li>
+                </ul>
+                <h5>Undergraduate Teaching Assistant
+                <small class="text-muted">Digital Design Laboratory, Georgia Institute of Technology </small></h5>
+                <h6><small class="text-muted">August 2017 - Present</small></h6>
+                <p class="text-muted">Instructing a class of 26 students for ECE 2031, a course which teaches the fundimentals of digital design</p>
+                <ul>
+                    <li class="text-muted">Guiding students through the process of designing, prototyping, and debugging digital circuits</li>
+                    <li class="text-muted">Teaching programming with hardware description languages using an Altera Cyclone II FPGA</li>
+                </ul>
+            </dd>
+            <dt class="col-sm-4"><h3>Projects</h3></dt>
+            <dd class="col-sm-8">
+                <h5>Where's My Stuff
+                <small class="text-muted"></small></h5
+                <p class="text-muted">Developed an iOS application which allows users to post lost, found, or donated items</p>
+                <ul>
+                    <li class="text-muted">Utilized a Firebase database to store item information in a JSON tree</li>
+                    <li class="text-muted">Used Firebase authentication and Facebook SDK to manage user accounts</li>
+                </ul>
+                <h5>Atlanta Farms, Gardens, and Orchards
+                <small class="text-muted"></small></h5>
+                <p class="text-muted">Collaborated with a team to create a website which allowed owners to manage their properties and visitors to log property visits and give ratings</p>
+                <ul>
+                    <li class="text-muted">Created a dynamic website using Python (Flask), HTML, and CSS</li>
+                    <li class="text-muted">Implemented a MySQL database to store user data and property information</li>
+                </ul>
+                <a href="projects.html"> More projects detailed on project page </a>
+            </dd>
+            <dt class="col-sm-4 baby-spacer"><h3>Skills</h3></dt>
+            <dd class="col-sm-8 baby-spacer">
+                <h5>Programming Languages</h5>
+                <h5 class="text-muted med-spacer">Python</h5>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+                    aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                </div>
+                </div>
+                <h5 class="text-muted baby-spacer">Java</h5>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+                    aria-valuemin="0" aria-valuemax="100" style="width:83%">
+                </div>
+                </div>
+                <h5 class="text-muted baby-spacer">Swift</h5>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+                    aria-valuemin="0" aria-valuemax="100" style="width:78%">
+                </div>
+                </div>
+                <h5 class="text-muted baby-spacer">HTML</h5>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+                    aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                </div>
+                </div>
+                <h5 class="text-muted baby-spacer">CSS</h5>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+                    aria-valuemin="0" aria-valuemax="100" style="width:55%">
+                </div>
+                </div>
+                <h5 class="text-muted baby-spacer">C/C++</h5>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+                    aria-valuemin="0" aria-valuemax="100" style="width:55%">
+                </div>
+                </div>
+                <h5 class="text-muted baby-spacer">SQL</h5>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+                    aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                </div>
+                </div>
+                <h5 class="med-spacer">Tools</h5>
+                <p class="text-muted"> Xcode, Android Studio, Git/Github, Firebase, CocoaPods </p>
+                <h5 class="med-spacer">Libraries & Frameworks </h5>
+                <p class="text-muted"> Bootstrap, Flask, Pandas, Seaborn</p>
+            </dd>
+            <dt class="col-sm-4"><h3>Extracurricular</h3></dt>
+            <dd class="col-sm-8">
+                <h5>GT iOS Club</h5>
+                <h6><small class="text-muted">Member: August 2017 - May 2018</small></h6>
+                <h6><small class="text-muted">Tech Lead: August 2018 - Present</small></h6>
+                <p class="text-muted">Working with other aspiring iOS developers to create new mobile applications</p>
+            </dd>
+        </dl>
+    </div>
+    <div align="center">
+        <a href="img/resume.pdf"download>Download PDF Version</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
