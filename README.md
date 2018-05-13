@@ -1,3 +1,3 @@
 # lkearley.github.io
 
-[laurenkearley.com!](http://www.laurenkearley.com/)
+[laurenkearley.com](http://www.laurenkearley.com/)
