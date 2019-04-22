@@ -115,3 +115,9 @@ img {
 .icons {
     border-radius: 25%;
 }
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
+}
