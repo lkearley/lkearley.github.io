@@ -114,6 +114,7 @@ img {
 
 .icons {
     border-radius: 25%;
+    border: 0;
 }
 
 @media (min-width: 34em) {
